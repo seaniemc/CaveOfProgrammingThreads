@@ -58,7 +58,7 @@ public class Worker {
         System.out.println("Starting.....");
 
         long start = System.currentTimeMillis();
-        
+
         Thread t1 = new Thread(() ->{
             process();
         });
